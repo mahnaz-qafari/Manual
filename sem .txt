@@ -1,0 +1,5 @@
+Feasibility_study_complexity =  noise
+Feasibility_study_person_day = +10 * Feasibility_study_complexity + noise
+Feasibility_study_num_people = +5 * Feasibility_study_complexity +3 * Feasibility_study_priority + noise
+Feasibility_study_priority =  noise
+Implementation_person_day = +50 * Feasibility_study_complexity + 5 * Feasibility_study_num_people + noise
